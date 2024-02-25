@@ -1,10 +1,10 @@
-// program to calculate surface area of a triangle, rectangle and square
-
-#include <iostream>
-using namespace std;
-int main(){
+// program to calculate the surface area of a triangle, rectangle, or square
+                                                          // very wonderful code but again use the more precise data type
+#include <iostream>                                      //use the double and float data type it gives more precise results. 
+using namespace std;                                    //integers round up numbers to whole numbers and the decimal digits are also way more important here
+int main(){                                            // also learn about the iomanip headerfile and setprecision() function, it should not necessarily be implemented here, but it's something good to know about.
 	int enter;
-	cout<<"program to calculate surface area of a triangle, rectangle and square"<<endl;
+	cout<<"program to calculate the surface area of a triangle, rectangle and square"<<endl;
 	cout<<"press 1 to calculate the surface area of a triangle"<<endl;
 	cout<<"press 2 to calculate the surface area of a square"<<endl;
 	cout<<"press 3 to calculate the surface area of a rectangle"<<endl;
@@ -12,9 +12,9 @@ int main(){
 	cin>>enter;
 	if(enter == 1){
 		cout<<"You are calculating the surface area of a triangle"<<endl;
-		int base,height;
+		int base, height;
 		int sum;
-		cout<<"The formular for the surface area of a triangle is: 1/2bh"<<endl;
+		cout<<"The formula for the surface area of a triangle is: 1/2bh"<<endl;
 		cout<<"Enter a number for the base: "<<endl;
 		cin>>base;
 		
@@ -26,8 +26,8 @@ int main(){
 	
 	else if(enter ==2){
 		cout<<"You are calculating the surface area of a square"<<endl;
-			cout<<"The formular for the surface area of a square is: S^2"<<endl;
-			int distance,sum;
+			cout<<"The formula for the surface area of a square is: S^2"<<endl;
+			int distance, sum;
 			cout<<"Enter a number for the distance: "<<endl;
 			cin>>distance;
 			
@@ -37,8 +37,8 @@ int main(){
 
 	else if(enter == 3){
 		cout<<"You are calculating the surface area of a rectangle"<<endl;
-		cout<<"The formular for the surface area of a rectangle is: length * breadth(l*b)"<<endl;
-		int length, breadth,sum;
+		cout<<"The formula for the surface area of a rectangle is: length * breadth(l*b)"<<endl;
+		int length, breadth, sum;
 		cout<<"Enter a number for the length: "<<endl;
 		cin>>length;
 		
