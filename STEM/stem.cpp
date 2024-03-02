@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int enter;
+	float enter;
 	cout<<"program to calculate surface area of a triangle, rectangle and square"<<endl;
 	cout<<"press 1 to calculate the surface area of a triangle"<<endl;
 	cout<<"press 2 to calculate the surface area of a square"<<endl;
@@ -12,8 +12,8 @@ int main(){
 	cin>>enter;
 	if(enter == 1){
 		cout<<"You are calculating the surface area of a triangle"<<endl;
-		int base,height;
-		int sum;
+		float base,height;
+		float sum;
 		cout<<"The formular for the surface area of a triangle is: 1/2bh"<<endl;
 		cout<<"Enter a number for the base: "<<endl;
 		cin>>base;
@@ -27,7 +27,7 @@ int main(){
 	else if(enter ==2){
 		cout<<"You are calculating the surface area of a square"<<endl;
 			cout<<"The formular for the surface area of a square is: S^2"<<endl;
-			int distance,sum;
+			float distance,sum;
 			cout<<"Enter a number for the distance: "<<endl;
 			cin>>distance;
 			
@@ -38,7 +38,7 @@ int main(){
 	else if(enter == 3){
 		cout<<"You are calculating the surface area of a rectangle"<<endl;
 		cout<<"The formular for the surface area of a rectangle is: length * breadth(l*b)"<<endl;
-		int length, breadth,sum;
+		float length, breadth,sum;
 		cout<<"Enter a number for the length: "<<endl;
 		cin>>length;
 		
