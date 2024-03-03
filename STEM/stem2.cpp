@@ -25,31 +25,19 @@ int main(){
 	cout<<"Your answer is: "<<sum<<endl;
 
 
-	cout<<"Midpointt of both axis"<<endl;
-	int X2, X1, Y2 ,Y1;
-	cout<<"Enter a value for x2"<<endl;
-	cin>>X2;
+	cout<<"Midpoint of both y and x axis"<<endl;
 	
-	cout<<"Enter a value for x1"<<endl;
-	cin>>X1;
+	float midpoint;
 	
+	midpoint = (x2 + x1) / 2;
 	
-	float midpointx;
-	midpointx = (X2+X1)/2;
-	cout<<"Your answer is: "<<midpointx<<endl;
-	
-	cout<<"Enter a value for y2"<<endl;
-	cin>>Y2;
-	
-	cout<<"Enter a value for y1"<<endl;
-	cin>>Y1;
-	
-	cout<<"Midpoint of x axis"<<endl;
+	cout<< "The midpoint for x axis is: "<<midpoint<<endl;
 	
 	
-		float midpointy;
-	midpointy = (Y2+Y1/)2;
-	cout<<"Your answer is: "<<midpointy<<endl;
+	midpoint = (y2 + y1) / 2;
+	
+	cout<< "The midpoint for y axis is: "<<midpoint<<endl;
+	
 	
 
 }
